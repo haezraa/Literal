@@ -81,79 +81,59 @@
     </div>
 
    <!-- FEATURED CATEGORIES -->
-<section class="px-6 md:px-10 lg:px-20 mt-14">
-    <h2 class="text-2xl font-bold text-gray-800 mb-5">Featured Categories</h2>
+<section class="px-6 md:px-10 lg:px-20 mt-6">
+    <h2 class="text-2xl font-bold text-gray-800 mb-5">Kategori Terlaris</h2>
 
-    <div class="relative overflow-hidden">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
 
-        <div id="categorySlider" class="flex transition-all duration-500">
-
-            <!-- CATEGORY LIST (6 ITEMS) -->
-            <!-- 1 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2664/2664026.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Novel</h3>
-                </div>
+        <!-- 1 -->
+        <div class="relative h-40 rounded-xl overflow-hidden shadow-md">
+            <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://static.gramedia.net/_next/static/media/fict-adventure.54ff765b.png"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                <h3 class="text-white font-semibold">Komik Aksi & Petualangan</h3>
             </div>
-
-            <!-- 2 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Self Improvement</h3>
-                </div>
-            </div>
-
-            <!-- 3 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/3062/3062634.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Education</h3>
-                </div>
-            </div>
-
-            <!-- 4 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2885/2885433.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Biography</h3>
-                </div>
-            </div>
-
-            <!-- 5 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4313/4313092.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Business</h3>
-                </div>
-            </div>
-
-            <!-- 6 -->
-            <div class="w-1/3 flex-shrink-0 px-3">
-                <div class="bg-white shadow-md rounded-xl p-6 flex flex-col items-center">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" class="w-20 h-20 mb-4">
-                    <h3 class="text-lg font-semibold text-gray-700">Comics</h3>
-                </div>
-            </div>
-
         </div>
 
-        <!-- BUTTONS (Inside, not clipped) -->
-        <button onclick="prevCategory()"
-            class="absolute left-1 top-1/2 -translate-y-1/2 bg-white shadow-xl rounded-full w-12 h-12 flex
-            items-center justify-center text-2xl hover:text-[#ECAF6A] hover:scale-110 transition z-20">
-            <i class="ri-arrow-left-s-line"></i>
-        </button>
+        <!-- 2 -->
+        <div class="relative h-40 rounded-xl overflow-hidden shadow-md">
+            <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://static.gramedia.net/_next/static/media/fict-romance.8b636a50.png"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                <h3 class="text-white font-semibold">Fiksi Romantis</h3>
+            </div>
+        </div>
 
-        <button onclick="nextCategory()"
-            class="absolute right-1 top-1/2 -translate-y-1/2 bg-white shadow-xl rounded-full w-12 h-12 flex
-            items-center justify-center text-2xl hover:text-[#ECAF6A] hover:scale-110 transition z-20">
-            <i class="ri-arrow-right-s-line"></i>
-        </button>
+        <!-- 3 -->
+        <div class="relative h-40 rounded-xl overflow-hidden shadow-md">
+            <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://static.gramedia.net/_next/static/media/fict-fantasy.0195f9ea.png"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                <h3 class="text-white font-semibold">Fiksi Fantasi</h3>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="relative h-40 rounded-xl overflow-hidden shadow-md">
+            <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://static.gramedia.net/_next/static/media/fict-history.0791dd6f.png"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                <h3 class="text-white font-semibold">Fiksi Sejarah</h3>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="relative h-40 rounded-xl overflow-hidden shadow-md">
+            <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://static.gramedia.net/_next/static/media/fict-mystery.ef6f273e.png"
+                 class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+                <h3 class="text-white font-semibold">Fiksi Misteri & Detektif</h3>
+            </div>
+        </div>
 
     </div>
 </section>
+
 
 <!-- BEST SELLER -->
 <section class="px-6 md:px-10 lg:px-20 mt-14">
@@ -161,7 +141,9 @@
 
     <div class="relative overflow-hidden">
 
-        <div id="bestSellerSlider" class="flex transition-all duration-500">
+        <div id="bestSellerSlider" class="flex transition-all duration-500 gap-4">
+
+            <!-- Generate Book Cards -->
             <script>
                 const bestBooks = [
                     { title: "Bicara Itu Ada Seninya", author: "Oh Su Hyang", img: "https://cdn.gramedia.com/uploads/items/9786020332956_cover_Bicara_itu_Ada_Seninya.jpg" },
@@ -171,33 +153,32 @@
                     { title: "Filosofi Teras", author: "Henry Manampiring", img: "https://cdn.gramedia.com/uploads/items/9786020523316_filosofi_terlarang.jpg" },
                     { title: "Melangkah", author: "J.S. Khairen", img: "https://cdn.gramedia.com/uploads/items/9786020647802_Melangkah.jpg" },
                     { title: "Negeri 5 Menara", author: "A. Fuadi", img: "https://cdn.gramedia.com/uploads/items/9789792248616_negeri-5-menara-.jpg" },
-                    { title: "Laut Bercerita", author: "Leila S. Chudori", img: "https://cdn.gramedia.com/uploads/items/9786024246940_Laut_Bercerita.jpg" }
+                    { title: "Laut Bercerita", author: "Leila S. Chudori", img: "https://cdn.gramedia.com/uploads/items/9786024246940_Laut_Bercerita.jpg" },
                 ];
 
                 document.write(
                     bestBooks.map(book => `
-                        <div class="w-1/4 flex-shrink-0 px-4">
-                            <div class="bg-white shadow-lg rounded-xl p-5 hover:scale-[1.02] transition">
-                                <img src="${book.img}" class="w-full h-72 object-cover rounded-md mb-4">
-                                <h3 class="font-semibold text-gray-800">${book.title}</h3>
-                                <p class="text-gray-600 text-sm">${book.author}</p>
+                        <div class="w-1/2 sm:w-1/3 lg:w-1/5 flex-shrink-0">
+                            <div class="bg-white shadow-md rounded-xl p-4 hover:scale-[1.03] transition">
+                                <img src="${book.img}" class="w-full h-56 object-cover rounded-lg mb-3">
+                                <h3 class="font-semibold text-gray-800 text-sm leading-tight">${book.title}</h3>
+                                <p class="text-gray-500 text-xs">${book.author}</p>
                             </div>
                         </div>
                     `).join('')
                 );
             </script>
+
         </div>
 
-        <!-- BUTTONS (fixed) -->
+        <!-- BUTTONS -->
         <button onclick="prevBest()"
-            class="absolute left-2 top-1/2 -translate-y-1/2 bg-white shadow-xl rounded-full w-12 h-12 flex
-            items-center justify-center text-2xl hover:text-[#ECAF6A] hover:scale-110 transition z-20">
+            class="absolute -left-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-2 text-xl hover:text-[#ECAF6A]">
             <i class="ri-arrow-left-s-line"></i>
         </button>
 
         <button onclick="nextBest()"
-            class="absolute right-2 top-1/2 -translate-y-1/2 bg-white shadow-xl rounded-full w-12 h-12 flex
-            items-center justify-center text-2xl hover:text-[#ECAF6A] hover:scale-110 transition z-20">
+            class="absolute -right-4 top-1/2 -translate-y-1/2 bg-white shadow-lg rounded-full p-2 text-xl hover:text-[#ECAF6A]">
             <i class="ri-arrow-right-s-line"></i>
         </button>
 
@@ -205,17 +186,8 @@
 </section>
 
 
+
 <script>
-    /* CATEGORY SLIDER (6 ITEMS → 3 PER VIEW) */
-    let catIndex = 0;
-    function nextCategory() {
-        if (catIndex < 1) catIndex++;
-        document.getElementById("categorySlider").style.transform = `translateX(-${catIndex * 100}%)`;
-    }
-    function prevCategory() {
-        if (catIndex > 0) catIndex--;
-        document.getElementById("categorySlider").style.transform = `translateX(-${catIndex * 100}%)`;
-    }
 
     /* BEST SELLER SLIDER (8 ITEMS → 4 PER VIEW) */
     let bestIndex = 0;
